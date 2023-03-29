@@ -30,6 +30,8 @@ i {
     color: #FF7237;
 }
 
+
+
 .section {
     z-index: 1;
     position: relative;
@@ -39,6 +41,20 @@ i {
     display: flex;
     box-sizing: border-box;
     min-height: 100vh;
+}
+
+@media (max-width: 970px) {
+    .section {
+        padding: 7.5vw;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    #footer {
+        display: none;
+    }
 }
 
 .section-bio {
