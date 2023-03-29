@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 15px/1.5 "Roboto Mono", Helvetica, sans-serif;
+    color: #ebebea;
+    background: #222222;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+span {
+    color: #1EE0AE;
+}
+
+a {
+    color: #2fffc9;
+    font-size: 30px;
+}
+
+i {
+    color: #FF7237;
+}
+
+.section {
+    z-index: 1;
+    position: relative;
+    padding: 96px 0 96px 96px;
+    width: calc(100vw - 96px - 7em);
+    display: -webkit-box;
+    display: flex;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.section-bio {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.column-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.bio {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: -0.45em;
+    max-width: 700px;
+}
+
+.report-container {
+    padding: 1px 0 50px 0px;
+}
+
+.names {
+    color: #FF7237;
+}
+
+.footer {
+    position: fixed;
+    right: 96px;
+    bottom: 92px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: end;
+    align-items: flex-end;
+}
+
+.footer-links {
+    margin-top: 1em;
+    line-height: 1;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #222222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2fffc9;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #157a5f;
+}
